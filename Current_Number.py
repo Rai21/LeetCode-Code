@@ -1,4 +1,5 @@
 from typing import List
+#need
 class Solution:
     def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:
         ans = []
@@ -9,3 +10,4 @@ class Solution:
                     c+=1
             ans.append(c)
         return ans
+    
